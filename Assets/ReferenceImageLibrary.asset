@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5675628218179139418
+  m_GuidHigh: 12248048003938721714
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5349524421050098084
+      m_GuidHigh: 7516726491194563460
+    m_SerializedTextureGuid:
+      m_GuidLow: 1555014188055209563
+      m_GuidHigh: 8079155832758070072
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: colt_m1911_square_black
+    m_Texture: {fileID: 2800000, guid: 4bb9265b852a159438eb91b86ced1e70, type: 3}
