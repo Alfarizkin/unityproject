@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuUtama.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MenuAR.unity
+    guid: 51491a3344e966b44a396fb94dc5bc30
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: 0d1fb7cb898e40f4399f0e9a6d840eb2
+  - enabled: 1
+    path: Assets/Scenes/MenuFilterCamera.unity
+    guid: 0de98e921158989448e729c3ded6d57d
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f3a62c2f64269274d9f2b77168538a78, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 8de14995ccb76ca40b7b9313b7de35c1, type: 2}
