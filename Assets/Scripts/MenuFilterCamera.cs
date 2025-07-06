@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuFilterCamera : MonoBehaviour
 {
-    public void Back ()
+    void Start()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
+    }
+    public void Back()
     {
         SceneManager.LoadScene("MenuUtama");
     }
