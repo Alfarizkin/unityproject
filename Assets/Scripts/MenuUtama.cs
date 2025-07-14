@@ -36,6 +36,11 @@ public class MainMenu : MonoBehaviour
     StartCoroutine(LoadFaceFilterScene());
   }
 
+    public void MenuFilterCamera2()
+  {
+    StartCoroutine(LoadFaceFilterScene2());
+  }
+
   private IEnumerator LoadARScene()
   {
     // Reset sebelum load scene baru
@@ -58,5 +63,17 @@ public class MainMenu : MonoBehaviour
 
     yield return new WaitForSeconds(0.2f);
     SceneManager.LoadScene("MenuFilterCamera");
+  }
+
+  private IEnumerator LoadFaceFilterScene2()
+  {
+    // Reset sebelum load scene baru
+    if (ARSessionManager.Instance != null)
+    {
+      ARSessionManager.Instance.ResetARSession();
+    }
+
+    yield return new WaitForSeconds(0.2f);
+    SceneManager.LoadScene("MenuFilterCamera2");
   }
 }

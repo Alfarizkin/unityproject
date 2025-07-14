@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARScene.unity
     guid: 903edccb5eae17b41a04634440a6d0e6
+  - enabled: 1
+    path: Assets/Scenes/MenuFilterCamera2.unity
+    guid: 13ed3b9bf15a85944acada681cb2995e
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8b9ab1f8a94dbd744ad4121c027710d3, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: f3a62c2f64269274d9f2b77168538a78, type: 2}
