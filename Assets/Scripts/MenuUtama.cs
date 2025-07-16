@@ -31,6 +31,11 @@ public class MainMenu : MonoBehaviour
     StartCoroutine(LoadARScene());
   }
 
+  public void MenuARPlament()
+  {
+    StartCoroutine(LoadARPlacement());
+  }
+
   public void MenuFilterCamera()
   {
     StartCoroutine(LoadFaceFilterScene());
@@ -51,6 +56,18 @@ public class MainMenu : MonoBehaviour
 
     yield return new WaitForSeconds(0.2f);
     SceneManager.LoadScene("ARScene");
+  }
+
+  private IEnumerator LoadARPlacement()
+  {
+    // Reset sebelum load scene baru
+    if (ARSessionManager.Instance != null)
+    {
+      ARSessionManager.Instance.ResetARSession();
+    }
+
+    yield return new WaitForSeconds(0.2f);
+    SceneManager.LoadScene("ARPlacement");
   }
 
   private IEnumerator LoadFaceFilterScene()
