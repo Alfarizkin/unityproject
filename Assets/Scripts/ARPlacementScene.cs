@@ -21,7 +21,7 @@ public class ARPlacementScene : MonoBehaviour
         ARSession session = FindObjectOfType<ARSession>();
         if (session != null)
         {
-            session.enabled = false;
+            session.Reset();
         }
         // Wait a frame to ensure cleanup
         yield return new WaitForEndOfFrame();
