@@ -922,8 +922,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MenuFilterCamera, Assembly-CSharp
+      - m_Target: {fileID: 1884032985}
+        m_TargetAssemblyTypeName: ARPlacementScene, Assembly-CSharp
         m_MethodName: Back
         m_Mode: 1
         m_Arguments:
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 442975d7195a62646aeba2a47ebad00b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31fe23d5e8c2e1142aa18351026efb32, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6793,6 +6793,14 @@ PrefabInstance:
     - target: {fileID: 1027545379881721015, guid: c61701e373812a3428f7e0cee242aa2c, type: 3}
       propertyPath: m_Name
       value: LeftButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246489683668855051, guid: c61701e373812a3428f7e0cee242aa2c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1884032983}
+    - target: {fileID: 4246489683668855051, guid: c61701e373812a3428f7e0cee242aa2c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8340394136300332913, guid: c61701e373812a3428f7e0cee242aa2c, type: 3}
       propertyPath: m_Pivot.x
