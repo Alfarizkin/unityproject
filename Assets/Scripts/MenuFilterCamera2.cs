@@ -15,14 +15,9 @@ public class FaceFilterSceneManager2 : MonoBehaviour
 
     private IEnumerator InitializeAR()
     {
-        if (ARSessionManager.Instance != null)
-        {
-            ARSessionManager.Instance.ResetARSession();
-        }
-
+        // Tidak perlu reset ARSession di sini
         yield return new WaitForSeconds(0.5f);
 
-        // Enable AR components untuk face filter
         ARSession session = FindObjectOfType<ARSession>();
         if (session != null)
         {
