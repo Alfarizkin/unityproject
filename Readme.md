@@ -5,7 +5,7 @@ Proyek ini adalah aplikasi **Augmented Reality (AR)** berbasis **Unity** menggun
 
 1. Image Tracking (Scan Gambar)
 - Melacak gambar target untuk memunculkan objek 3D.
-- Dikerjakan oleh: **Alfarizki**
+- Dikerjakan oleh: **Kiki**
 
 2. AR Filter – 3D
 - Menampilkan filter 3D di wajah pengguna menggunakan face tracking.
@@ -17,8 +17,7 @@ Proyek ini adalah aplikasi **Augmented Reality (AR)** berbasis **Unity** menggun
 
 4. AR Object Placement
 - Menampilkan dan menempatkan objek 3D ke dunia nyata dengan AR plane.
-- Mendukung preview sebelum penempatan.
-- Dikerjakan oleh: **Alfarizki**
+- Dikerjakan oleh: **Kiki**
 
 ---
 
