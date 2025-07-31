@@ -37,6 +37,6 @@ Proyek ini adalah aplikasi **Augmented Reality (AR)** berbasis **Unity** menggun
 |------------|--------------------------|
 | Alfarizki  | Image Tracking, Placement |
 | Kevin      | Filter Mask              |
-| Mufid      | Filter Kumis             |
+| Mufid      | Filter 3D             |
 
 ---
