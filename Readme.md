@@ -13,7 +13,7 @@ Proyek ini adalah aplikasi **Augmented Reality (AR)** berbasis **Unity** menggun
 
 3. AR Filter – Masker
 - Menampilkan filter mask secara real-time saat wajah terdeteksi.
-- Dikerjakan oleh: **Kevin
+- Dikerjakan oleh: **Kevin**
 
 4. AR Object Placement
 - Menampilkan dan menempatkan objek 3D ke dunia nyata dengan AR plane.
